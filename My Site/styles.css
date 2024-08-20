@@ -1,0 +1,213 @@
+body {
+    background-color: #C6E2B5;
+}
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+#right-link, #center-link, #left-link {
+    flex-basis: 33.33%;
+}
+#right-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#center-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left-link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#basline {
+    display: inline-block;
+    clear: both;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+footer ul {
+    list-style: none;
+}
+footer a {
+    color: #000;
+}
+nav img {
+    width: 50px;
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+    margin-left: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+header h6 {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-family: cursive;
+}
+button {
+    background-color: #007b;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-top: 4px;
+    box-shadow: 0px, 0px, 10px, rgba(0, 0, 0, 2);
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+#button2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 18px;
+}
+.hero-section {
+    background-color: #6B5B95;
+    padding: 20px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+#home {
+    height: 400px;
+}
+#home img {
+    object-fit: contain;
+    height: 100%;
+    float: right;
+    text-align: right;
+    transform: scaleX(-1);
+    margin-top: 20px;
+}
+#home h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+#home p {
+    font-family: cursive;
+    color: whitesmoke;
+    margin-bottom: 50px;
+}
+.feature-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.features {
+    width: 45%;
+    margin: 2%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.features img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.features h1 {
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;   
+}
+.features p {
+    font-family: cursive
+}
+#feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6B5B95;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#about {
+    background-color: #6B5B95;
+    padding: 20px;
+}
+#about  h1 {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolds;
+}
+#about h3 {
+    font-family: cursive;
+    color: whitesmoke;
+    font-weight: bold;
+}
+#about p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+#about ul {
+    list-style: none;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#read-more {
+    display: none;
+}
+#read-more:target {
+    display: block;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: cursive;
+}
+ul {
+    list-style: none;
+}
+/*#feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
